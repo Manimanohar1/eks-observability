@@ -1,0 +1,19 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: checkout-service-down-rules
+  namespace: monitoring
+  labels:
+    release: prometheus
+spec:
+  groups:
+  - name: checkout.availability.rules
+    rules:
+    - alert: CheckoutServiceDown
+      expr: absent(up{job="checkoutservice"})
+      for: 1m
+      labels:
+        severity: critical
+      annotations:
+        summary: Checkout Service is completely down
+        description: "Prometheus has not been able to scrape any checkoutservice instances for over a minute."
