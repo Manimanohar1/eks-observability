@@ -1,14 +1,8 @@
 # eks-observability
 <a id="readme-top"></a>
 
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<br />
 <div align="center">
   <a href="https://github.com/Manimanohar1/eks-observability">
-        <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Chaos Engineering & Observability using EKS</h3>
