@@ -9,7 +9,8 @@
   <p align="center">
     An end-to-end project demonstrating core Site Reliability Engineering (SRE) principles. Deployed a microservices application on EKS, implemented a full observability stack with Prometheus and Grafana, defined SLOs, and proactively tested system resilience using Chaos Engineering.
     <br />
-    <a href="https://github.com/Manimanohar1/eks-observability/tree/main/kube-configs"><strong>Config Files »</strong></a>
+    <a href="https://github.com/Manimanohar1/eks-observability/tree/main/kube-configs"><strong> Config Files »</strong></a>
+    <a href="https://github.com/Manimanohar1/eks-observability/tree/main/screenshots"><strong> Screenshots »</strong></a>
     <br />
     <br />
   </p>
