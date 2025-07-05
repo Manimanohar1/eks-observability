@@ -1,4 +1,3 @@
-# eks-observability
 <a id="readme-top"></a>
 
 <div align="center">
@@ -10,33 +9,34 @@
   <p align="center">
     An end-to-end project demonstrating core Site Reliability Engineering (SRE) principles. Deployed a microservices application on EKS, implemented a full observability stack with Prometheus and Grafana, defined SLOs, and proactively tested system resilience using Chaos Engineering.
     <br />
-    <a href="https://github.com/Manimanohar1/eks-observability/tree/main/kube-configs"><strong>Explore the Config Files »</strong></a>
+    <a href="https://github.com/Manimanohar1/eks-observability/tree/main/kube-configs"><strong>Config Files »</strong></a>
     <br />
     <br />
   </p>
 </div>
 
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#replicating-the-environment">Replicating the Environment</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#setup">Setup</a></li>
-      </ul>
-    </li>
-    <li><a href="#sre-experiments-and-findings">SRE Experiments and Findings</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#replicating-the-environment">Replicating the Environment</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#sre-experiments-and-findings">SRE Experiments and Findings</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
 </details>
 
 ## About The Project
@@ -159,15 +159,10 @@ A special thanks to the creators and maintainers of the excellent open-source to
 * [Chaos Mesh](https://chaos-mesh.org/)
 * [Prometheus Community](https://prometheus.io/)
 * [Grafana Labs](https://grafana.com/)
+* [Eraser IO](https://app.eraser.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[issues-shield]: https://img.shields.io/github/issues/Manimanohar1/eks-observability.svg?style=for-the-badge
-[issues-url]: https://github.com/Manimanohar1/eks-observability/issues
-[license-shield]: https://img.shields.io/github/license/Manimanohar1/eks-observability.svg?style=for-the-badge
-[license-url]: https://github.com/Manimanohar1/eks-observability/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME
 [project-screenshot]: images/architecture.png
 [graphana_ok]: images/graphana_ok.png
 [graphana_notok]: images/graphana_nok.png
